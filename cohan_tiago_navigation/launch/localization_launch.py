@@ -15,7 +15,7 @@ from nav2_common.launch import RewrittenYaml
 
 def generate_launch_description():
     ## Get the navigation directory
-    nav_dir = get_package_share_directory('cohan_sim_navigation')
+    nav_dir = get_package_share_directory('cohan_tiago_navigation')
 
     ## Common for all nodes
     namespace = LaunchConfiguration('ns')

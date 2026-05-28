@@ -20,7 +20,7 @@ from launch.substitutions import PythonExpression
 
 def generate_launch_description():
     # Get the launch directory
-    nav_dir = get_package_share_directory('cohan_sim_navigation')
+    nav_dir = get_package_share_directory('cohan_tiago_navigation')
     launch_dir = os.path.join(nav_dir, 'launch')
 
     # Create the launch configuration variables
